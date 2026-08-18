@@ -1,0 +1,28 @@
+# --- Datos pesados (nunca subir datasets grandes al repo) ---
+data/raw/
+data/*.csv
+data/*.nc
+data/*.hdf5
+data/*.tif
+*.zip
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Node / Web ---
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# --- Sistema / editor ---
+.DS_Store
+.vscode/
+.idea/
+*.log
